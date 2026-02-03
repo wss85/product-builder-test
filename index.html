@@ -4,56 +4,268 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="google-adsense-account" content="ca-pub-6458115391667011">
-  <title>제휴 문의</title>
+  <meta name="description" content="프로덕트빌더 - 스타트업과 기업의 성장을 돕는 제품 개발 파트너. MVP 개발, 웹/앱 서비스 구축, 기술 컨설팅 서비스를 제공합니다.">
+  <meta name="keywords" content="MVP 개발, 스타트업, 웹개발, 앱개발, 기술 컨설팅, 프로덕트 빌더">
+  <title>프로덕트빌더 - 스타트업 성장 파트너</title>
   <link href='/style.css' rel='stylesheet'>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6458115391667011"
      crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="container">
-    <h1>제휴 문의</h1>
-    <p class="subtitle">제휴 및 협업에 관심이 있으시면 아래 양식을 작성해 주세요.</p>
+  <!-- 네비게이션 -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">프로덕트빌더</a>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="active">홈</a></li>
+        <li><a href="services.html">서비스</a></li>
+        <li><a href="blog.html">블로그</a></li>
+        <li><a href="about.html">회사소개</a></li>
+        <li><a href="contact.html">제휴문의</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="메뉴 열기">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
 
-    <form action="https://formspree.io/f/xpqdoajl" method="POST">
-      <div class="form-group">
-        <label for="company">회사명</label>
-        <input type="text" id="company" name="company" required placeholder="회사명을 입력하세요">
+  <!-- 히어로 섹션 -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>아이디어를 현실로 만드는<br><span class="highlight">프로덕트빌더</span></h1>
+      <p class="hero-desc">스타트업과 기업의 디지털 혁신을 함께합니다.<br>MVP 개발부터 서비스 운영까지, 제품의 모든 여정을 지원합니다.</p>
+      <div class="hero-buttons">
+        <a href="contact.html" class="btn btn-primary">무료 상담 신청</a>
+        <a href="services.html" class="btn btn-secondary">서비스 알아보기</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 메인 콘텐츠 -->
+  <main>
+    <!-- 서비스 요약 -->
+    <section class="section services-preview">
+      <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-subtitle">비즈니스 성장에 필요한 모든 기술 서비스를 제공합니다</p>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">🚀</div>
+            <h3>MVP 개발</h3>
+            <p>최소한의 비용과 시간으로 시장 검증이 가능한 핵심 기능의 제품을 개발합니다. 린 스타트업 방법론을 기반으로 빠르게 출시하고 피드백을 수집할 수 있습니다.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">💻</div>
+            <h3>웹 서비스 개발</h3>
+            <p>반응형 웹사이트부터 복잡한 웹 애플리케이션까지. React, Vue, Next.js 등 최신 기술 스택을 활용하여 사용자 경험이 뛰어난 서비스를 구축합니다.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">📱</div>
+            <h3>모바일 앱 개발</h3>
+            <p>iOS와 Android를 동시에 지원하는 크로스 플랫폼 앱 개발. Flutter와 React Native를 활용하여 효율적으로 고품질 앱을 제작합니다.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">🔧</div>
+            <h3>기술 컨설팅</h3>
+            <p>기술 스택 선정부터 아키텍처 설계, 개발 프로세스 최적화까지. 10년 이상의 경험을 바탕으로 최적의 기술 전략을 제안합니다.</p>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <a href="services.html" class="btn btn-outline">서비스 자세히 보기</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 왜 프로덕트빌더인가 -->
+    <section class="section why-us">
+      <div class="container">
+        <h2 class="section-title">Why Product Builder?</h2>
+        <p class="section-subtitle">프로덕트빌더를 선택해야 하는 이유</p>
+
+        <div class="features-grid">
+          <div class="feature">
+            <div class="feature-number">01</div>
+            <h3>검증된 전문성</h3>
+            <p>50개 이상의 프로젝트를 성공적으로 완수한 경험. 다양한 산업군에서의 개발 노하우를 보유하고 있습니다.</p>
+          </div>
+
+          <div class="feature">
+            <div class="feature-number">02</div>
+            <h3>애자일 개발 방식</h3>
+            <p>2주 단위의 스프린트로 진행 상황을 투명하게 공유합니다. 빠른 피드백 반영으로 원하는 결과물을 얻을 수 있습니다.</p>
+          </div>
+
+          <div class="feature">
+            <div class="feature-number">03</div>
+            <h3>지속적인 파트너십</h3>
+            <p>개발 완료 후에도 유지보수와 기능 개선을 지원합니다. 장기적인 성장 파트너로서 함께합니다.</p>
+          </div>
+
+          <div class="feature">
+            <div class="feature-number">04</div>
+            <h3>합리적인 비용</h3>
+            <p>필요한 기능에만 집중하여 불필요한 비용을 줄입니다. 투명한 견적과 명확한 산출 근거를 제공합니다.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 프로세스 -->
+    <section class="section process">
+      <div class="container">
+        <h2 class="section-title">Our Process</h2>
+        <p class="section-subtitle">체계적인 프로세스로 성공적인 프로젝트를 만듭니다</p>
+
+        <div class="process-timeline">
+          <div class="process-step">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h3>상담 및 기획</h3>
+              <p>비즈니스 목표와 요구사항을 파악하고, 최적의 솔루션을 함께 설계합니다. 프로젝트 범위와 일정을 명확히 정의합니다.</p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h3>디자인</h3>
+              <p>사용자 경험을 고려한 UI/UX 디자인을 진행합니다. 프로토타입을 통해 실제 서비스 모습을 미리 확인할 수 있습니다.</p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h3>개발</h3>
+              <p>애자일 방법론에 따라 반복적으로 개발을 진행합니다. 매 스프린트마다 결과물을 공유하고 피드백을 반영합니다.</p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <div class="step-number">4</div>
+            <div class="step-content">
+              <h3>테스트 및 출시</h3>
+              <p>철저한 품질 테스트 후 서비스를 출시합니다. 출시 후에도 모니터링과 최적화를 지속합니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 최근 블로그 -->
+    <section class="section blog-preview">
+      <div class="container">
+        <h2 class="section-title">Latest Insights</h2>
+        <p class="section-subtitle">프로덕트 개발과 스타트업 성장에 관한 인사이트</p>
+
+        <div class="blog-grid">
+          <article class="blog-card">
+            <div class="blog-category">MVP 개발</div>
+            <h3><a href="blog.html">MVP 개발, 어디서부터 시작해야 할까?</a></h3>
+            <p>성공적인 MVP 개발을 위한 5가지 핵심 원칙과 실제 사례를 통해 알아보는 효과적인 시장 검증 방법.</p>
+            <span class="blog-date">2025년 1월 15일</span>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-category">기술 트렌드</div>
+            <h3><a href="blog.html">2025년 주목해야 할 웹 개발 트렌드</a></h3>
+            <p>AI 통합, 서버리스 아키텍처, Edge Computing 등 올해 웹 개발 분야에서 주목할 기술 트렌드를 분석합니다.</p>
+            <span class="blog-date">2025년 1월 10일</span>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-category">스타트업</div>
+            <h3><a href="blog.html">스타트업을 위한 기술 스택 선택 가이드</a></h3>
+            <p>초기 스타트업이 고려해야 할 기술 스택 선정 기준과 각 선택지의 장단점을 상세히 비교합니다.</p>
+            <span class="blog-date">2025년 1월 5일</span>
+          </article>
+        </div>
+
+        <div class="text-center">
+          <a href="blog.html" class="btn btn-outline">블로그 더보기</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA 섹션 -->
+    <section class="section cta">
+      <div class="container">
+        <h2>프로젝트를 시작할 준비가 되셨나요?</h2>
+        <p>아이디어가 있다면 언제든 연락주세요. 무료 상담을 통해 최적의 솔루션을 제안해 드립니다.</p>
+        <a href="contact.html" class="btn btn-primary btn-large">무료 상담 신청하기</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- 푸터 -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h4>프로덕트빌더</h4>
+          <p>스타트업과 기업의 디지털 혁신을 돕는 제품 개발 전문 기업입니다.</p>
+        </div>
+
+        <div class="footer-section">
+          <h4>서비스</h4>
+          <ul>
+            <li><a href="services.html">MVP 개발</a></li>
+            <li><a href="services.html">웹 서비스 개발</a></li>
+            <li><a href="services.html">모바일 앱 개발</a></li>
+            <li><a href="services.html">기술 컨설팅</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>회사</h4>
+          <ul>
+            <li><a href="about.html">회사소개</a></li>
+            <li><a href="blog.html">블로그</a></li>
+            <li><a href="contact.html">제휴문의</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>법적 고지</h4>
+          <ul>
+            <li><a href="privacy.html">개인정보처리방침</a></li>
+            <li><a href="terms.html">이용약관</a></li>
+          </ul>
+        </div>
       </div>
 
-      <div class="form-group">
-        <label for="name">담당자명</label>
-        <input type="text" id="name" name="name" required placeholder="담당자 이름을 입력하세요">
+      <div class="footer-bottom">
+        <p>&copy; 2025 프로덕트빌더. All rights reserved.</p>
       </div>
+    </div>
+  </footer>
 
-      <div class="form-group">
-        <label for="email">이메일</label>
-        <input type="email" id="email" name="email" required placeholder="example@company.com">
-      </div>
+  <!-- 힐링타임 플로팅 버튼 -->
+  <button class="healing-btn" id="healingBtn" aria-label="1분 멍때리기">
+    <span class="healing-btn-icon">🧘</span>
+    <span class="healing-btn-text">쉬어가기</span>
+  </button>
 
-      <div class="form-group">
-        <label for="phone">연락처</label>
-        <input type="tel" id="phone" name="phone" placeholder="010-0000-0000">
-      </div>
-
-      <div class="form-group">
-        <label for="type">제휴 유형</label>
-        <select id="type" name="type" required>
-          <option value="">선택해 주세요</option>
-          <option value="business">비즈니스 제휴</option>
-          <option value="marketing">마케팅 협업</option>
-          <option value="technical">기술 파트너십</option>
-          <option value="other">기타</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label for="message">문의 내용</label>
-        <textarea id="message" name="message" rows="5" required placeholder="제휴 관련 문의 내용을 자세히 작성해 주세요."></textarea>
-      </div>
-
-      <button type="submit">문의하기</button>
-    </form>
+  <!-- 힐링타임 모달 -->
+  <div class="healing-modal" id="healingModal">
+    <div class="healing-modal-content">
+      <button class="healing-modal-close" id="healingClose" aria-label="닫기">&times;</button>
+      <iframe
+        src="https://healingtime.pages.dev/"
+        title="1분 멍때리기 - 힐링타임"
+        class="healing-iframe"
+        allow="autoplay"
+      ></iframe>
+    </div>
   </div>
+
   <script defer type="text/javascript" src="/main.js"></script>
 </body>
 </html>
